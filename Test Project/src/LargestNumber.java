@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class LargestThreeNumbers {
+public class LargestNumber {
 
 	public static void main(String[] args) {
 
@@ -17,9 +17,10 @@ public class LargestThreeNumbers {
 		Collections.sort(largest, Collections.reverseOrder());
 		
 		for (Integer desc : largest) {
-			if(desc > 3){
+			if(desc > 5){
 				System.out.println(desc);
 			}
 		}
 	}
+
 }
